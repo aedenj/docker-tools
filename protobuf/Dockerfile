@@ -2,7 +2,6 @@ FROM alpine:3.16
 
 ENV PROTOBUF_VERSION="3.21.3"
 
-LABEL version="3.16"
 LABEL version="${PROTOBUF_VERSION}"
 LABEL maintainer="aeden.jamesom@gmail.com"
 
